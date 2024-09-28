@@ -31,12 +31,6 @@ export default class extends BaseGenerator {
     ]);
 
     this.registerTemplates(`vue/`, [
-      // components
-      "components/foo/FooCreate.vue",
-      "components/foo/FooForm.vue",
-      "components/foo/FooList.vue",
-      "components/foo/FooShow.vue",
-      "components/foo/FooUpdate.vue",
 
       // common components
       "components/common/FormRepeater.vue",
