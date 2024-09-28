@@ -26,8 +26,6 @@ export default async function generators(generator = "react") {
       return wrap(NuxtGenerator);
     case "react":
       return wrap(ReactGenerator);
-    case "typescript":
-      return wrap(ReactGenerator);
     case "react-native":
       return wrap(ReactNativeGenerator);
     case "typescript":
