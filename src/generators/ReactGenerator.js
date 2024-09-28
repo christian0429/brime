@@ -12,17 +12,6 @@ export default class ReactGenerator extends BaseGenerator {
       "utils/dataAccess.ts",
       "utils/types.ts",
 
-      // hooks
-      "hooks/create.ts",
-      "hooks/delete.ts",
-      "hooks/fetch.ts",
-      "hooks/index.ts",
-      "hooks/list.ts",
-      "hooks/mercure.ts",
-      "hooks/retrieve.ts",
-      "hooks/update.ts",
-      "hooks/show.ts",
-
       // interfaces
       "interfaces/Collection.ts",
       "interfaces/foo.ts",
