@@ -151,12 +151,6 @@ const router = createRouter({
 
       // types
       "types/%s.ts",
-
-      // views
-      "views/%s/ViewCreate.vue",
-      "views/%s/ViewList.vue",
-      "views/%s/ViewShow.vue",
-      "views/%s/ViewUpdate.vue",
     ].forEach((pattern) =>
       this.createFileFromPattern(pattern, dir, [lc, titleUcFirst], context)
     );
