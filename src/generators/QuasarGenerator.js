@@ -15,13 +15,6 @@ export default class extends BaseGenerator {
       "types/foo.ts",
       "types/item.ts",
       "types/view.ts",
-
-      // utils
-      "utils/api.ts",
-      "utils/config.ts",
-      "utils/date.ts",
-      "utils/error.ts",
-      "utils/mercure.ts",
     ]);
 
     this.registerTemplates("vue-common/", [
