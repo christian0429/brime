@@ -19,6 +19,12 @@ export default class extends BaseGenerator {
     ]);
 
     this.registerTemplates(`react-common/`, [
+      // actions
+      "actions/foo/create.js",
+      "actions/foo/delete.js",
+      "actions/foo/list.js",
+      "actions/foo/update.js",
+      "actions/foo/show.js",
 
       // utils
       "utils/dataAccess.js",
